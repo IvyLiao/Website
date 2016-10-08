@@ -1,0 +1,513 @@
+/*== CSS Typography and Colors ==*/
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+
+/* Font Color */
+
+@font-face {
+    font-family: 'SleekSL';
+    src: url(Resources/weblysleek_ui/weblysleekuisl.ttf);
+}
+
+@font-face {
+    font-family: 'SleekL';
+    src: url(Resources/weblysleek_ui/weblysleekuil.ttf);
+}
+
+@font-face {
+    font-family: 'SleekLi';
+    src: url(Resources/weblysleek_ui/weblysleekuili);
+}
+
+@font-face {
+    font-family: 'SleekSB';
+    src: url(Resources/weblysleek_ui/weblysleekuisb);
+}
+
+@font-face {
+    font-family: 'SleekSBI';
+    src: url(Resources/weblysleek_ui/weblysleekuisbi);
+}
+
+@font-face {
+    font-family: 'SleekLI';
+    src: url(Resources/weblysleek_ui/weblysleekuisli);
+}
+
+/* Font */
+
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+div {
+    display: block;
+}
+
+/*RESUMEEEE*/
+
+article {
+    font-size:12pt;
+    line-height: 20px;
+    
+}
+
+.education{
+    color:white;
+    font-family: 'SleekSL', 'Arial', sans-serif;
+}
+
+.experience{
+    color:white;
+    font-family: 'SleekSL', 'Arial', sans-serif;
+}
+
+.advanced{
+    color:white;
+    font-family: 'SleekSL', 'Arial', sans-serif;
+}
+
+.leadership {
+    color:white;
+    font-family: 'SleekSL', 'Arial', sans-serif;
+}
+
+#resume {
+    margin-left: 50px;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    width:100%;
+}
+
+#resume h1{
+    font-family: 'SleekSL', 'Arial', sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+#resume a {
+    color: #b9a797;
+}
+
+#resume h2{
+    border-bottom: 1px solid #fff;
+    margin-top: 10%;
+    margin-bottom:10%;
+    font-family: 'SleekSL', 'Arial', sans-serif;
+    color: white;
+}
+
+#resume h4 {
+    display:block;
+    font-family: 'SleekSL', 'Arial', sans-serif;
+    margin-top:10px;
+    color:white;
+    font-size: 12pt;
+    text-align: left;
+    word-spacing:normal;
+}
+
+#resume h5 {
+    color:white;
+    font-family: 'SleekSL', 'Arial', sans-serif;
+    /*
+    border-bottom: 1px solid #fff;
+    */
+    padding-bottom: 5px;
+}
+
+#resume li {
+    font-size: 10pt;
+    list-style-type: none;
+    color: #b9a797;
+}
+
+#resume ul li:last-child {
+  margin-bottom: 10px;
+}
+/* PORTFOLIO */
+
+.caption {
+  position: relative;
+  margin-top: -114%;
+  padding-left:10%;
+    padding-right:10%;
+    padding-top:35%;
+    padding-bottom: 43%;
+  width: 100%;
+  text-align:center;
+  color: transparent;
+}
+
+/* Back Pulse */
+@-webkit-keyframes hvr {
+  50% {
+    background-color: rgba(62, 53, 44, 0.9);
+  }
+}
+
+@keyframes hvr {
+  50% {
+    background-color: rgba(62, 53, 44, 0.9);
+  }
+}
+
+.hvr {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+
+.hvr:hover, .hvr:focus, .hvr:active {
+  -webkit-animation-name: hvr;
+  animation-name: hvr;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: rgba(62, 53, 44, 0.9);
+  background-color: rgba(62, 53, 44, 0.9);
+  color: white;
+    
+}
+
+#portfolio {
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 20%;
+}
+
+#portfolio > .thumb {
+    width: 27%;
+    display:inline-block;
+    margin: 5% 5% 0% 0%;   
+}
+
+#portfolio h2 {
+  font-size: 18px;
+  font-family: 'SleekSL', 'Arial', sans-serif;
+  margin-top: 15px;
+  
+}
+
+#portfolio h3 {
+  font-size: 10px;
+  font-family: 'SleekSL', 'Arial', sans-serif;
+
+}
+    
+.thumb{
+  opacity: 1;
+  z-index: 999;
+}
+
+
+.thumb {
+	width: 90%;
+	text-align: center;
+	margin: 0 auto;
+    
+}
+
+.half img {
+  width: 37%;
+  display: inline-block;
+    margin: 1%;
+}
+.third img {
+  width: 24%;
+  display: inline-block;
+margin: 1%;
+
+}
+
+.three-fourths img {
+  width: 60%;
+  display: inline-block;
+    margin: 1%;
+}
+
+.full img {
+  width: 78%;
+  display: inline-block;
+    margin: 1%;
+}
+
+img {
+  width: 100%;
+}
+
+.blurb {
+	width: 68%!important;
+	display: block;
+	margin: 2% auto 0 auto;
+}
+
+.blurb > h1 {
+	margin: 10% auto 0 auto;
+}
+
+.blurb h1 {
+  font-size: 30px;
+}
+
+.blurb h1, .blurb h4 {
+color: #1c1c1c;
+word-spacing: normal;
+}
+
+.blurb p {
+color: #b9a797;
+font-size:15px;
+margin-bottom: 10px;
+}
+
+
+ .blurb {
+  width: 68%;
+  display: block;
+  margin: 2% auto 0 auto;
+}
+
+
+/*lists*/
+
+li {
+    list-style-type: none; 
+    text-align: justify;
+    color: #b9a797;
+    
+}
+
+* {
+    padding:0px;
+    margin:0;
+    box-sizing: border-box;
+}
+/* font-sizes/line-heights*/
+
+h1 {
+    font-family: 'SleekL', 'Arial', sans-serif;
+    color: white;
+    font-size: 4.3em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+h4 {
+    font-family: 'SleekL';
+    color: white;
+    font-size: 1.1em;
+    margin-top: 5px;
+    word-spacing:18px;
+}
+
+nav,
+p {
+    font-family: 'SleekSL';
+    color: white;
+    font-size: 1.4em;
+}
+
+/*
+nav {
+    position: fixed;
+    width:100%;
+    top:0;
+    left:0;
+    padding-top:15px;
+    z-index:9999;
+    height:60px;
+    background-color:black;
+    word-spacing:100px;
+}
+*/
+
+#stickyheader {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    left:0;
+    padding-top:15px;
+    z-index:9999;
+    height:60px;
+    background-color:black;
+    word-spacing:100px;
+}
+
+ #stickyalias {
+    display: none;
+    height: 10px;
+ }
+
+#unstickyheader {
+    margin-bottom: 0px;
+}
+
+ #othercontent {
+  margin-top: 20px;
+}
+/* Additional Typography CSS */
+
+a {
+    text-decoration: none;
+}
+
+#social-media li {
+    display: inline-block;
+    margin-right: 0px;
+
+}
+
+#contact li{
+    font-family: 'SleekSL';
+    color: black;
+    font-size: 1.4em;
+    margin-left: 50px;
+}
+
+
+/*Backgrounds */
+
+header {
+    background-image: url('Images/homebg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    margin-top: 0%;
+}
+
+footer {
+    background-color: white;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+
+#main {
+    background-image: url('Images/middlebg.jpg');
+    background-position: left;
+    padding: 100px;
+    margin-left: -100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#pages {
+    text-align: center;
+    bottom: 100px;
+}
+
+#logo {
+    position: relative;
+    left: 200px;
+}
+
+#about {
+    text-align: right;
+    margin-bottom: 0px;
+    margin-right: 90px;
+    position: relative;
+    bottom: 0px;
+}
+
+#me {
+    background-image: url('Images/aboutbg.jpg');
+    background-position: 100% 250%;
+    background-repeat: no-repeat;
+    background-size:70%;
+    padding-top: 5%;
+    padding-bottom: 15%;
+    margin-left:50px;
+}
+
+.paragraph {
+    width: 74.5%;
+}
+
+#social-media .fa {
+    color: black;
+    transition: color 1s;
+    display: inline-block;
+}
+
+#social-media .fa:hover {
+    color: firebrick;
+}
+
+.fa-2x {
+    font-size: 4em;
+}
+
+.mobile {
+    text-align: right;
+    position:relative;
+    top:-250px;
+    
+    color: white;
+}
+
+.mobile-top .one-half {
+width: 50%;
+}
+
+/* == heights / padding / margins / borders ==*/
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.one-half {
+    width: 50%;
+}
+
+.one-third {
+    width:33%;  
+}
+
+.one-fourth {
+    width:25%;  
+}
+.container {
+    width: 955px;
+    margin: auto;
+}
+
+header {
+    padding: 16%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img-responsive {
+    max-width: 100%;
+}

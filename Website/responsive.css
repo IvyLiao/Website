@@ -1,0 +1,130 @@
+/* == For Laptops == */
+
+@media screen and (min-width: 778px) and (max-width:954px) {
+    .container {
+        width: inherit;
+    }
+    .mobile {
+        display: none;
+    }
+    .fa-2x {
+        margin-left: -15px;
+    }
+}
+
+@media screen and (min-width: 955px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:776px) {
+    .container {
+        width: inherit;
+    }
+    .one-third,
+    .two-thirds {
+        width: 50%;
+    }
+    nav {
+        display: none;
+    }
+    .one-fourth,
+    .three-fourths {
+        width: 100%;
+    }
+    img {
+        margin: auto;
+        display: block;
+    }
+    .fa-2x {
+        font-size: 2.5em;
+        margin-left: -15px;
+    }
+    #main {
+        background-image: none;
+    }
+    #logo {
+        position: relative;
+        margin: -100px;
+        left: 50px;
+        top: -50px;
+    }
+}
+
+
+/* == CSS for Smartphones == */
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: inherit;
+    }
+    
+    header {
+     background-image:none;   
+    }
+    
+    .one-fourth,
+    .one-third,
+    .one-half,
+    .two-thirds,
+    .three-fourths,
+    .one-whole {
+        width: 100%;
+    }
+    .mobile-top .one-half {
+        width: 50%;
+    }
+    
+    * {
+        text-align: left;
+    }
+    #about {
+        display: none;
+    }
+    
+    p {
+        text-align: left;
+        margin-left: 30px;
+    }
+    nav {
+        display: none;
+    }
+    
+    h1 {
+        text-align: center;
+        font-size: 3.5em;
+        padding-top:100px;
+    }
+    
+    h4 {
+        text-align: center;
+        display: inline;
+        font-size:0.8em;
+        
+        position:relative;
+        top:-40px;
+        left:30px;
+    }
+    
+    .fa-2x {
+        font-size: 2.5em;
+        margin-left: -15px;
+    }
+    #main {
+        background-image: none;
+    }
+    #logo {
+        position: relative;
+        margin: -50px;
+        left: 50px;
+        top: -100px;
+    }
+    .mobile {
+        text-align: right;
+        position: relative;
+        top: -200px;
+        padding: 10px;
+        color: white;
+    }
+}
